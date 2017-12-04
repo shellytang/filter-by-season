@@ -2,7 +2,17 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// import produceData from './produce.json';
+import SeasonFilter from './season-filter-menu';
+
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+    
+    }
+
+  }
   render() {
     return (
       <div className="App">
@@ -13,6 +23,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <SeasonFilter />
       </div>
     );
   }
