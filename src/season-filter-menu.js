@@ -12,7 +12,10 @@ class SeasonFilter extends Component {
   
   handleClick(e) {
     e.preventDefault();
-    let selectedSeason = e.currentTarget.textContent; 
+    let selectedSeason = e.currentTarget.textContent;
+    if(selectedSeason === 'View All') {
+      selectedSeason = '';
+    }
     this.props.filterBySeason(selectedSeason);
   }
 
@@ -32,6 +35,7 @@ class SeasonFilter extends Component {
       <div>
         <h2>This is the Season Filter</h2>
         { uniqueSeasons }
+        <div onClick={this.handleClick}>View All</div>
       </div>
     )
   }
