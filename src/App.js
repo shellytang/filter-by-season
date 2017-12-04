@@ -4,6 +4,7 @@ import './App.css';
 
 // import produceData from './produce.json';
 import SeasonFilter from './season-filter-menu';
+import ProduceList from './produce-list';
 
 class App extends Component {
   constructor(props) {
@@ -16,10 +17,10 @@ class App extends Component {
 
   filterBySeason(season) {
     this.setState({
-      season: season,
+      season,
     })
   }
-  
+
   componentDidUpdate() {
     console.log('STATE: ', this.state);
   }
@@ -32,6 +33,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <SeasonFilter filterBySeason={this.filterBySeason}/>
+        <ProduceList selectedSeason={this.state.season}/>
       </div>
     );
   }
