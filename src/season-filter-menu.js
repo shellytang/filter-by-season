@@ -6,9 +6,16 @@ class SeasonFilter extends Component {
     super(props);
     this.state = {
 
-    }
+    };
+    this.handleClick = this.handleClick.bind(this);
   }
   
+  handleClick(e) {
+    e.preventDefault();
+    let selectedSeason = e.currentTarget.textContent; 
+    this.props.filterBySeason(selectedSeason);
+  }
+
   render() {
     let seasons = produceData.map(item => {
       return item.season;
@@ -17,7 +24,7 @@ class SeasonFilter extends Component {
       return seasons.indexOf(season) === index;
     }).map((filterOption, index) => {
       return (
-        <div key={index}>{filterOption}</div>
+        <div key={index} onClick={this.handleClick}>{filterOption}</div>
       )
     });
 
