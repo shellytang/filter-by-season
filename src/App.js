@@ -5,7 +5,6 @@ import './App.css';
 // import produceData from './produce.json';
 import SeasonFilter from './season-filter-menu';
 import ProduceList from './produce-list';
-
 class App extends Component {
   constructor(props) {
     super(props);
