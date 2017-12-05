@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import produceData from './produce.json';
-import ProduceImage from './produce-image';
+import ProduceItem from './produce-item';
 
 class ProduceList extends Component {
   render() {
@@ -11,7 +11,7 @@ class ProduceList extends Component {
         function _createImg(data) {
           return data.map((produce, index) => {
             return (
-              <ProduceImage key={index} produceDetail={produce}/>
+              <ProduceItem key={index} produceDetail={produce}/>
             )
           });
         }

@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Paper from 'material-ui/Paper';
+import Menu from 'material-ui/Menu';
+import MenuItem from 'material-ui/MenuItem';
 import produceData from './produce.json';
 
 class SeasonFilter extends Component {
@@ -19,22 +22,35 @@ class SeasonFilter extends Component {
   }
 
   render() {
-    let seasons = produceData.map(item => {
+
+    const style = {
+      display: 'inline-block',
+      margin: '16px 32px 16px 0',
+    }
+    
+    const seasons = produceData.map(item => {
       return item.season;
     });
-    let uniqueSeasons = seasons.filter((season, index) => {
+    const uniqueSeasons = seasons.filter((season, index) => {
       return seasons.indexOf(season) === index;
     }).map((filterOption, index) => {
+      // return (
+      //   <div key={index} onClick={this.handleClick}>{filterOption}</div>
+      // )
       return (
-        <div key={index} onClick={this.handleClick}>{filterOption}</div>
+        <Menu>
+          <MenuItem key={index} onClick={this.handleClick} primaryText={filterOption} />
+        </Menu>
       )
     });
 
     return (
       <div>
         <h2>This is the Season Filter</h2>
-        { uniqueSeasons }
-        <div onClick={this.handleClick}>View All</div>
+        <Paper style={style}>
+          { uniqueSeasons }
+          <MenuItem onClick={this.handleClick} primaryText="View All" />
+        </Paper>
       </div>
     )
   }
