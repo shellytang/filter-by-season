@@ -1,0 +1,16 @@
+.produceItem {
+  padding: .4em;
+  display: inline-block;
+  cursor: pointer;
+  transform: scale(1.00);
+}
+
+.produceItem:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+img {
+  height: 200px;
+	width: 150px;
+}

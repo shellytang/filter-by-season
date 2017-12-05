@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import produceData from './produce.json';
 import ProduceItem from './produce-item';
-
+import './produce-list.css';
 class ProduceList extends Component {
   render() {
+
     function loadList(selected) {
       let produceListBySeason = produceData.filter(item => {
         return item.season === selected;
@@ -18,10 +19,11 @@ class ProduceList extends Component {
 
         return selected === '' ? _createImg(produceData) : _createImg(produceListBySeason);
     }
-      return (
-        <div>
-        <h2>This is the produce list!</h2>
+    return (
+      <div>
+        <div className="produceItemContainer">
           { loadList(this.props.selectedSeason) }
+        </div>
       </div>
     )
   }

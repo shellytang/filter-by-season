@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Dialog from 'material-ui/Dialog';
 import FlatButton from 'material-ui/FlatButton';
+import './produce-item.css';
 class ProduceImage extends Component {
   constructor(props) {
     super(props);
@@ -31,7 +32,7 @@ class ProduceImage extends Component {
   ];
 
     return (
-      <div>
+      <div className="produceItem">
         <img onClick={this.handleOpen} src={produceDetail.path} alt={produceDetail.item}/>
         <Dialog
           title={produceDetail.item}

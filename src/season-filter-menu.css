@@ -1,0 +1,14 @@
+.filterMenuContainer {
+  margin-top: 3%;
+}
+
+.filterItem {
+  display: inline-block;
+  padding: 1.3em;
+  cursor: pointer;
+}
+
+.filterItem:hover {
+  border-bottom: 4px solid green;
+}
+
