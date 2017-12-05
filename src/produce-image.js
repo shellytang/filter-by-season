@@ -12,14 +12,14 @@ class ProduceImage extends Component {
 
   showDetails() {
     this.setState({
-      visible: true,
+      visible: !this.state.visible,
     });
   }
 
   render() {
 
-    const produceDetail = this.props.produceDetail;
-    const popup = (this.state.visible ? <ProduceDetail details={produceDetail} /> : null);
+  const produceDetail = this.props.produceDetail;
+  const popup = (this.state.visible ? <ProduceDetail details={produceDetail} toggleDetails={this.showDetails}/> : null);
 
     return (
       <div>
