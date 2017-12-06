@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import logo from './logo.svg';
+import logo from './veggie.png';
 import './App.css';
 
 import SeasonFilter from './season-filter-menu';
@@ -20,17 +20,13 @@ class App extends Component {
     })
   }
 
-  componentDidUpdate() {
-    console.log('STATE: ', this.state);
-  }
-
   render() {
     return (
       <MuiThemeProvider>
-        <div className="App">
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">Welcome to React</h1>
+        <div className="app">
+          <header className="appHeader">
+            <img src={logo} className="appLogo" alt="logo" />
+            <h1 className="appTitle">Seasonal Produce Guide</h1>
           </header>
            <SeasonFilter filterBySeason={this.filterBySeason}/>
            <ProduceList selectedSeason={this.state.season}/>

@@ -1,5 +1,5 @@
 .filterMenuContainer {
-  margin-top: 3%;
+  background: #C2A83E;
 }
 
 .filterItem {
@@ -9,6 +9,6 @@
 }
 
 .filterItem:hover {
-  border-bottom: 4px solid green;
+  color: #CCD9B4;
 }
 

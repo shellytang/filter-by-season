@@ -10,7 +10,27 @@
   transition: transform 0.3s;
 }
 
-img {
+.produceImg {
   height: 200px;
-	width: 150px;
+  width: 150px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);;
+  -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.popupBody {
+  margin-top: 1%;
+}
+
+.popupBody > p {
+  padding-top: .5em;
+  padding-bottom: .5em;
+  color: #718E8B;
+}
+
+.popupBody > a {
+  color: #C2A83E; 
+}
+.popupBody > a:hover {
+  color: #DDCF95;
 }

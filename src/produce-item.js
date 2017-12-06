@@ -33,16 +33,18 @@ class ProduceImage extends Component {
 
     return (
       <div className="produceItem">
-        <img onClick={this.handleOpen} src={produceDetail.path} alt={produceDetail.item}/>
+        <img className="produceImg" onClick={this.handleOpen} src={produceDetail.path} alt={produceDetail.item} />
         <Dialog
-          title={produceDetail.item}
           actions={actions}
           modal={false}
           open={this.state.open}
           onRequestClose={this.handleClose}
         >
-          <p>{produceDetail.description}</p>
-          <a href={`${produceDetail.recipeLink}`} target="_blank">{produceDetail.recipeName}</a>
+          <h3 className="popupTitle">{produceDetail.item}</h3>
+          <div className="popupBody">
+            <p>{produceDetail.description}</p>
+            <a href={`${produceDetail.recipeLink}`} target="_blank">{produceDetail.recipeName}</a>
+          </div>
         </Dialog>
       </div>
     );
