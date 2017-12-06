@@ -23,6 +23,7 @@ class ProduceImage extends Component {
 
   render() {
   const produceDetail = this.props.produceDetail;
+  
   //material-ui dialog options
   const actions = [
     <FlatButton

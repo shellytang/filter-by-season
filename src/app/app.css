@@ -1,6 +1,7 @@
 .app {
   text-align: center;
-  display: flex;
+  /* for sticky footer */
+  display: flex; 
   min-height: 100vh;
   flex-direction: column;
 }
@@ -32,17 +33,18 @@
   color: #CCD9B4;
 }
 
+/* ### sticky footer ### */
 footer {
   background-color: #204E4A; 
   padding: .75em;
   font-size: 1em;
 } 
-
 .siteContent {
   flex: 1;
   width: 100%;
   padding-bottom: 1em;
 }
+/* */
 
 @media only screen and (min-width: 600px) {
   .aboutLink, .ghLink {
