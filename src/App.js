@@ -24,7 +24,7 @@ class App extends Component {
             </Switch>
           </div>
           <footer>
-            <Link to='/about' className='aboutLink'>About this project</Link>
+            <Link to='/about' className='aboutLink'>Veggies & Fruits - Resources</Link>
             <a href='https://github.com/shellytang/filter-by-season' target='_blank' rel="noopener noreferrer" className="ghLink">View in Github</a>
           </footer>
         </div>

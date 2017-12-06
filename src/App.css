@@ -23,6 +23,9 @@
 .aboutLink, .ghLink {
   color: #C2A83E;
   text-decoration: none;
+  padding: .5em;
+  display: block;
+  font-size: .9em;
 }
 
 .aboutLink:hover, .ghLink:hover {
@@ -39,4 +42,10 @@ footer {
   flex: 1;
   width: 100%;
   padding-bottom: 1em;
+}
+
+@media only screen and (min-width: 600px) {
+  .aboutLink, .ghLink {
+    display: inline-block;
+  }
 }
