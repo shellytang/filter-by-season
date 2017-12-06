@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import SeasonFilter from './season-filter-menu';
-import ProduceList from './produce-list';
+import SeasonFilter from '../season-filter/season-filter-menu';
+import ProduceList from '../produce-list/produce-list';
 
 class Landing extends Component {
   constructor(props) {

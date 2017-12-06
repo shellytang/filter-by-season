@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import logo from './veggie.png';
-import './App.css';
+import logo from '../veggie.png';
+import './app.css';
 
-import Landing from './landing';
-import About from './about';
+import Landing from '../landing-container/landing';
+import About from '../about/about';
 
 class App extends Component {
  

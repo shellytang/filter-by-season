@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import produceData from './produce.json';
-import ProduceItem from './produce-item';
+import produceData from '../produce.json';
+import ProduceItem from '../produce-item/produce-item';
 import './produce-list.css';
 class ProduceList extends Component {
   

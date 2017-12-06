@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import produceData from './produce.json';
+import produceData from '../produce.json';
 import './season-filter-menu.css';
 
 class SeasonFilter extends Component {
