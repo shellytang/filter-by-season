@@ -16,7 +16,7 @@ class App extends Component {
 
   filterBySeason(season) {
     this.setState({
-      season,
+      season, // season: season
     })
   }
 

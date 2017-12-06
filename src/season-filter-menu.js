@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import produceData from './produce.json';
 import './season-filter-menu.css';
+
 class SeasonFilter extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-    };
+    this.state = {};
     this.handleClick = this.handleClick.bind(this);
   }
   
@@ -20,9 +20,10 @@ class SeasonFilter extends Component {
 
   render() {
 
+    //create seasons filter options and manually add view all option
     const seasons = produceData.map(item => {
       return item.season;
-    });
+    }); 
     const uniqueSeasons = seasons.filter((season, index) => {
       return seasons.indexOf(season) === index;
     }).map((filterOption, index) => {
@@ -30,7 +31,6 @@ class SeasonFilter extends Component {
           <div className="filterItem" key={index} onClick={this.handleClick}>{ filterOption }</div>
       )
     });
-
 
     return ( 
       <div className="filterMenuContainer"> 

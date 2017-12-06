@@ -2,7 +2,7 @@
   {
     "item": "Brussels Sprouts",
     "season": "Winter",
-    "description": "Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.",
+    "description": "Brussels sprouts taste great sauteed or roasted and are a good source of fiber and vitamin C. Choose firm, compact, bright green brussels sprouts heads. Buy on stalk when possible. Brussels sprouts can be kept refrigerated for up to 1 week.",
     "path": "assets/brussels-sprouts.jpg",
     "recipeName": "Balsamic roasted brussels sprouts",
     "recipeLink": "http://www.geniuskitchen.com/recipe/balsamic-roasted-brussels-sprouts-501935"
@@ -10,65 +10,145 @@
   {
     "item": "Winter Squash",
     "season": "Winter",
-    "description": "Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.",
-    "path": "assets/brussels-sprouts.jpg",
-    "recipeName": "Balsamic roasted brussels sprouts",
-    "recipeLink": "http://www.geniuskitchen.com/recipe/balsamic-roasted-brussels-sprouts-501935"
+    "description": "Winter squash, such as delicata, butternut, and acorn squash, are nutritious options for winter meals. Butternut squash is a good source of potassium, magnesium, and vitamins A and C. Delicata squash hold their shape well when cooked, making them a good choice for stuffing with whole grains, lean meats or cheeses, fruits and vegetables or baking with your favorite seasonings.",
+    "path": "assets/delicata-squash.jpg",
+    "recipeName": "Butternut Squash Soup",
+    "recipeLink": "https://www.shelovesbiscotti.com/roasted-butternut-squash-ginger-pear-soup"
   },
   {
-    "item": "Sweet Potatoes",
+    "item": "Kale",
     "season": "Winter",
-    "description": "Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.",
-    "path": "assets/brussels-sprouts.jpg",
-    "recipeName": "Balsamic roasted brussels sprouts",
-    "recipeLink": "http://www.geniuskitchen.com/recipe/balsamic-roasted-brussels-sprouts-501935"
+    "description": "Kale is an excellent source of vitamin A and C. Try it in salads, toasted in the oven for kale chips, or sauteed. Choose dark colored kale bunches with small to medium leaves. Avoid brown or yellow leaves. Store kale in the coldest part of the fridge for 3-5 days.",
+    "path": "assets/kale.jpg",
+    "recipeName": "Kale and Brussels Sprout Salad",
+    "recipeLink": "https://www.bonappetit.com/recipe/kale-and-brussels-sprout-salad"
+  },
+  {
+    "item": "Sweet potatoes",
+    "season": "Winter",
+    "description": "These edible roots are usually labeled either sweet potatoes or yams, but calling these veggies yams is a misnomer. True yams are native to Africa and are from a different botanical group. Store sweet potatoes in a cool, dark place for use within 3-5 weeks. Sweet potatoes are a good source of dietary fiber and potassium and high in vitamin A and C.",
+    "path": "assets/sweet-potato.jpg",
+    "recipeName": "Black Bean Sweet Potato Enchiladas",
+    "recipeLink": "https://cookieandkate.com/2017/black-bean-sweet-potato-enchiladas/"
   },
   {
     "item": "Asparagus",
     "season": "Spring",
-    "description": "Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.",
-    "path": "assets/brussels-sprouts.jpg",
-    "recipeName": "Balsamic roasted brussels sprouts",
-    "recipeLink": "http://www.geniuskitchen.com/recipe/balsamic-roasted-brussels-sprouts-501935"
+    "description": "Asparagus is a signature spring vegetable. It is a good source of vitamin C and A and high in folate. Choose odorless asparagus stalks with dry, tight tips. Refrigerate asparagus for up to four days by wrapping ends of stalks. Be sure to remove the tough ends.",
+    "path": "assets/asparagus.jpg",
+    "recipeName": "Simple ways to cook asparagus",
+    "recipeLink": "https://www.savorytooth.com/how-to-cook-asparagus/"
+  },
+  {
+    "item": "Mushrooms",
+    "season": "Spring",
+    "description": "Mushrooms taste great sauteed, roasted, and grilled, or sliced for salads and sandwiches. Refrigerate mushrooms in original container or paper bag for up to 1 week.",
+    "path": "assets/mushroom.jpg",
+    "recipeName": "Tofu and Mushroom Lettuce Wrap",
+    "recipeLink": "https://www.joyofkosher.com/recipes/tofu-and-mushroom-lettuce-wraps/"
   },
   {
     "item": "Spinach",
     "season": "Spring",
-    "description": "Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.",
-    "path": "assets/brussels-sprouts.jpg",
-    "recipeName": "Balsamic roasted brussels sprouts",
-    "recipeLink": "http://www.geniuskitchen.com/recipe/balsamic-roasted-brussels-sprouts-501935"
-  },
-  {
-    "item": "Corn",
-    "season": "Summer",
-    "description": "Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.",
-    "path": "assets/brussels-sprouts.jpg",
-    "recipeName": "Balsamic roasted brussels sprouts",
-    "recipeLink": "http://www.geniuskitchen.com/recipe/balsamic-roasted-brussels-sprouts-501935"
+    "description": "Spinach is an excellent source of fiber and high in vitamin A and C, iron, and folate. Loosely wrap spinach in damp paper towel. Refrigerate in plastic bag for use within 3-5 days.",
+    "path": "assets/spinach.jpg",
+    "recipeName": "Beet Spinach Salad",
+    "recipeLink": "https://cookieandkate.com/2015/raw-beet-salad-with-carrot-quinoa-spinach"
   },
   {
     "item": "Berries",
     "season": "Summer",
-    "description": "Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.",
-    "path": "assets/brussels-sprouts.jpg",
-    "recipeName": "Balsamic roasted brussels sprouts",
-    "recipeLink": "http://www.geniuskitchen.com/recipe/balsamic-roasted-brussels-sprouts-501935"
+    "description": "Summer berries are delicious as is, but they also make a great addition to desserts, breakfast, and salads. Blueberries are  a good source of vitamin K. They also contain vitamin C, manganese, and other antioxidants. Refrigerate blueberries for up to 10-14 days.",
+    "path": "assets/blueberries.jpg",
+    "recipeName": "Blueberries overnight oats",
+    "recipeLink": "https://www.twopeasandtheirpod.com/overnight-blueberry-almond-oats/print/"
+  },
+  {
+    "item": "Corn",
+    "season": "Summer",
+    "description": "Choose ears with green husks, fresh silks and tight rows of kernel. Refrigerate corn with husks on, for use as soon as possible or within 1-2 days. ",
+    "path": "assets/corn.jpg",
+    "recipeName": "Fresh Corn Salad",
+    "recipeLink": "http://www.foodnetwork.com/recipes/ina-garten/fresh-corn-salad-recipe-1914351"
+  },
+  {
+    "item": "Summer Squash",
+    "season": "Summer",
+    "description": "Look for zucchini with a slightly prickly, but shiny skin. The skin should be firm and free of cuts and bruises. Store zucchini in the refrigerator for 4 to 5 days. Do not wash it until you are ready to use it. Cooked zucchini can be stored in the refrigerator as well, but should be used with in 2 days. Zucchini bread and noodles are fun ways to incorporate summer squash into your meals.",
+    "path": "assets/summer-squash.jpg",
+    "recipeName": "Zucchini noodles",
+    "recipeLink": "https://www.delishknowledge.com/mediterranean-zucchini-noodles/"
+  },
+  {
+    "item": "Tomatoes",
+    "season": "Summer",
+    "description": "Farmers market tomatoes are full of flavor. Choose tomatoes with bright, shiny skins and firm flesh. Store at room temperature away from direct sunlight, for use within 1 week after ripe. Tomatoes taste best if not refrigerated; refrigerate only if you can’t use them before they spoil.",
+    "path": "assets/tomatoes.jpg",
+    "recipeName": "Grilled Zucchini Chickpea Tomato Salad",
+    "recipeLink": "https://www.twopeasandtheirpod.com/grilled-zucchini-chickpea-tomato-and-goat-cheese-salad/"
+  },
+  {
+    "item": "Eggplant",
+    "season": "Summer",
+    "description": "Choose eggplants that are heavy for their size and without cracks or discolorations. Store eggplants in the refrigerator crisper drawer. Use within 5-7 days.",
+    "path": "assets/eggplant.jpg",
+    "recipeName": "Eggplant Pizza",
+    "recipeLink": "https://kalynskitchen.com/recipe-for-julia-childs-eggplant-pizzas/"
+  },
+  {
+    "item": "Green Bean",
+    "season": "Summer",
+    "description": "Green beans make a great side dish item and taste great sauteed, grilled, or roasted. Choose fresh, well colored beans that snap easily when bent. Refrigerate green beans in plastic bag, use within 1 week.",
+    "path": "assets/green-bean.jpg",
+    "recipeName": "Roasted Green Beans",
+    "recipeLink": "https://kalynskitchen.com/recipe-for-roasted-green-beans-with/"
+  },
+  {
+    "item": "Watermelon",
+    "season": "Summer",
+    "description": "Watermelon is high in vitamin A and C. Choose symmetrical watermelons with dried stems and yellowish undersides, heavy for size. Store whole watermelons at room temperature. Refrigerate cut watermelons in airtight container for use within 5 days.",
+    "path": "assets/watermelon.jpg",
+    "recipeName": "Watermelon Feta Mint Salad",
+    "recipeLink": "http://www.sweetsugarbean.com/2012/08/summer-in-bowl-watermelon-feta-mint.html"
+  },
+  {
+    "item": "Apples",
+    "season": "Fall",
+    "description": "Fall apples, such as honeycrisp apples, are delicious and provide a good source of fiber. Look for firm apples with no cuts or bruises. Refrigerate apples for up to 6 weeks.",
+    "path": "assets/apples.jpg",
+    "recipeName": "Kale Salad with Apples and Pecans",
+    "recipeLink": "https://cookieandkate.com/2012/debs-kale-salad-with-apple-cranberries-and-pecans/"
   },
   {
     "item": "Pear",
     "season": "Fall",
-    "description": "Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.",
-    "path": "assets/brussels-sprouts.jpg",
-    "recipeName": "Balsamic roasted brussels sprouts",
-    "recipeLink": "http://www.geniuskitchen.com/recipe/balsamic-roasted-brussels-sprouts-501935"
+    "description": "Choose firm pears and apply gentle pressure to the stem end of the pear with your thumb. When it yields to the pressure, it’s ready to eat. Store unripened pears in paper bag at room temperature. Refrigerate ripe pears.",
+    "path": "assets/pear.jpg",
+    "recipeName": "Baked Pears",
+    "recipeLink": "https://happykitchen.rocks/baked-pears-gorgonzola-honey"
+  },
+  {
+    "item": "Bell Peppers",
+    "season": "Fall",
+    "description": "Choose firm, brightly colored peppers with tight skin that are heavy for their size. Refrigerate bell peppers in plastic bag for use within 5 days. Green peppers are less sweet and slightly more bitter than yellow or orange peppers, with red bell peppers being the sweetest.",
+    "path": "assets/bell-peppers.jpg",
+    "recipeName": "Veggie fajitas",
+    "recipeLink": "http://www.thegardengrazer.com/2015/07/portobello-fajitas.html"
   },
   {
     "item": "Cauliflower",
     "season": "Fall",
-    "description": "Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.",
-    "path": "assets/brussels-sprouts.jpg",
-    "recipeName": "Balsamic roasted brussels sprouts",
-    "recipeLink": "http://www.geniuskitchen.com/recipe/balsamic-roasted-brussels-sprouts-501935"
+    "description": "Choose cauliflower with compact, creamy white curds and bright green, firmly attached leaves. Avoid brown spots or loose sections that are spread out. Refrigerate cauliflower up to 5 days. Cauliflower pizza crust, rice, and fritters as fun ways to try cauliflower.",
+    "path": "assets/cauliflower.jpg",
+    "recipeName": "Cauliflower Schawarma",
+    "recipeLink": "https://food52.com/recipes/67675-sheet-pan-chicken-and-cauliflower-shawarma"
+  },
+  {
+    "item": "Swiss Chard",
+    "season": "Fall",
+    "description": "Store unwashed leaves in plastic bags in the crisper in the refrigerator for 2 to 3 days. Swiss chard is a good source of vitamins K, A, and C. Swiss chard leaves are tender and have a taste similar to beet greens and spinach.",
+    "path": "assets/swiss-chard.jpg",
+    "recipeName": "Sauteed swiss chard",
+    "recipeLink": "http://www.simplyrecipes.com/recipes/swiss_chard/"
   }
 ]

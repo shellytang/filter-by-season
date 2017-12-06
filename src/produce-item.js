@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Dialog from 'material-ui/Dialog';
 import FlatButton from 'material-ui/FlatButton';
 import './produce-item.css';
+
 class ProduceImage extends Component {
   constructor(props) {
     super(props);
@@ -21,8 +22,8 @@ class ProduceImage extends Component {
   };
 
   render() {
-
   const produceDetail = this.props.produceDetail;
+  //material-ui dialog options
   const actions = [
     <FlatButton
       label="Back"

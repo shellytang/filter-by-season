@@ -2,11 +2,12 @@
   padding: .4em;
   display: inline-block;
   cursor: pointer;
-  transition: all 0.3s linear;
+  transform: scale(1.00);
+  transition: transform 0.5s, opacity 0.5s;
 }
 
 .produceItem:hover {
-  opacity: 0.7;
+  transform: scale(1.03);
  } 
 
 .produceImg {
