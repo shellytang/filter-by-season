@@ -2,20 +2,18 @@
   padding: .4em;
   display: inline-block;
   cursor: pointer;
-  transform: scale(1.00);
+  transition: all 0.3s linear;
 }
 
 .produceItem:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s;
-}
+  opacity: 0.7;
+ } 
 
 .produceImg {
   height: 200px;
   width: 150px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);;
-  -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  border: 2px solid #ADBEBD;
+  border-radius: .1em;
 }
 
 .popupBody {
@@ -25,7 +23,7 @@
 .popupBody > p {
   padding-top: .5em;
   padding-bottom: .5em;
-  color: #718E8B;
+  color: #486E6A;
 }
 
 .popupBody > a {

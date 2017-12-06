@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import Paper from 'material-ui/Paper';
-import Menu from 'material-ui/Menu';
-// import MenuItem from 'material-ui/MenuItem';
 import produceData from './produce.json';
 import './season-filter-menu.css';
-
 class SeasonFilter extends Component {
   constructor(props) {
     super(props);

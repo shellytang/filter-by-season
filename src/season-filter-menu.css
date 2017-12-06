@@ -1,10 +1,11 @@
 .filterMenuContainer {
   background: #C2A83E;
+  height: 30%;
 }
 
 .filterItem {
-  display: inline-block;
-  padding: 1.3em;
+  padding-top: .5em;
+  padding-bottom: .5em;
   cursor: pointer;
 }
 
@@ -12,3 +13,12 @@
   color: #CCD9B4;
 }
 
+@media only screen and (min-width: 600px) {
+    .filterItem {
+    display: inline-block;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
