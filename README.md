@@ -1,6 +1,6 @@
 # filter-by-season
 
-This is a simple web app that allows users to filter a short list of fruits and vegetables by season and the view health and recipe information of each item. 
+This is a simple web app that allows users to filter a short list of fruits and vegetables by season and view nutrition and recipe info for each item. 
 
 ## Getting Started
 
