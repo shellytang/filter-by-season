@@ -44,8 +44,8 @@ class ProduceImage extends Component {
         >
           <h3 className="popupTitle">{produceDetail.item}</h3>
           <div className="popupBody">
-            <p>{produceDetail.description}</p>
             <p>Season: {produceDetail.season}</p>
+            <p>{produceDetail.description}</p>
             <a href={`${produceDetail.recipeLink}`} target="_blank">{produceDetail.recipeName}</a>
           </div>
         </Dialog>
